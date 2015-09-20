@@ -4,14 +4,20 @@
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css"></link>
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <link rel="stylesheet" href="style.css"></link>
   <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Work+Sans:200' rel='stylesheet' type='text/css'>
-
+  <!-- audio.js -->
+  <script src="lib/audiojs/audio.min.js"></script>
+  <script>
+    audiojs.events.ready(function() {
+      var as = audiojs.createAll();
+    });
+  </script>
+  <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
 
@@ -25,7 +31,7 @@
         How to Podcast <span class="caret"></span>
       </button>
       <ul class="dropdown-menu">
-        <li><a href="1.html">1. Your First Listen</a></li>
+        <li><a href="one.html">1. Your First Listen</a></li>
         <li><a href="#">2. One Topic, Three Ways</a></li>
         <li><a href="#">3. Surprise!</a></li>
         <li><a href="#">4. For That Extra 15 Minutes</a></li>
@@ -36,23 +42,17 @@
     </div>
 
     <!-- find your own (downloading podcast apps, and discover the most popular ones) -->
-    <div class="btn-group">
-      <button type="button" class="btn btn-default" aria-haspopup="true" aria-expanded="false">
+   <div class="btn-group">
+      <a href="find.html"><button type="button" class="btn btn-default" aria-haspopup="true" aria-expanded="false">
         Find Your Own
-      </button>
+      </button></a>
     </div>
 
     <div class="btn-group">
-      <button type="button" class="btn btn-default" aria-haspopup="true" aria-expanded="false">
-        About
-      </button>
+      <a href="about.html"><button type="button" class="btn btn-default" aria-haspopup="true" aria-expanded="false">About
+      </button></a>
     </div>
   </div>
-</div>
-
-<div class="lesson">
-<h2>Find Your Own<h2>
-  <p id="intro">Coming Soon! Information on how to download podcasts, where to find podcasts, and much much more!</p>
 </div>
 
 </body>
