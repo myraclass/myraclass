@@ -117,7 +117,7 @@ input:focus {
 .lesson {
 	width: 60%;
 	margin: 40px auto 0 auto;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .lesson-copy {
