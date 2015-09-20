@@ -1,8 +1,14 @@
 <html>
 <head>
+  <script src="lib/audiojs/audio.min.js"></script>
+  <script>
+    audiojs.events.ready(function() {
+      var as = audiojs.createAll();
+    });
+  </script>
   <title>Test</title>
 </head>
 <body>
-<iframe style="border:none" src="http://files.podsnack.com/iframe/embed.html?hash=av7kld7d&t=1442760628" width="460" height="60" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <audio src="audio/1_1_jenkins.mp3" preload="auto" autoplay="autoplay"/>
 </body>
 </html>
