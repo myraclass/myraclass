@@ -37,3 +37,14 @@
 	margin-right: 35px;
 	float: left;
 }
+
+#submit {
+	padding-top: 200px;
+}
+
+/* mailchimp subscribe button */ 
+#mc-embedded {
+    width: auto;
+    display: block;
+    margin: 1em 0 1em 5%;
+}
