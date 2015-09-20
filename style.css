@@ -33,9 +33,6 @@ body {
     border-radius: 0px;
 }
 
-/*.btn:focus:hover, .btn:active:focus:hover, .btn.active:focus:hover {
-	border-bottom: 0px;
-}*/
 
 .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
     color: #676767;
@@ -84,8 +81,16 @@ body {
 	float: left;
 }
 
+#lady-smaller {
+	display: block;
+	width: 175px;
+	margin-right: 35px;
+	float: left;
+	margin-bottom: 35px;
+}
+
 #submit {
-	padding-top: 135px;
+	padding-top: 100px;
 }
 
 .signup {
@@ -148,14 +153,21 @@ h2 {
 
 .lesson-copy {
 	font-size: 20px;
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+
+.explanation {
+	clear: both;
+	margin-left: 79px;
+}
+
+.subhead {
+	font-weight: bold;
+	color: #f16364;
 }
 
 /*audio player styles*/
-
-audio {
-	/*min-width: 600px;*/
-	margin: 0 auto;
-}
 
 .audiojs {
 	font-family: 'Work Sans', sans-serif;
