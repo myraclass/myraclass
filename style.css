@@ -7,7 +7,7 @@ body {
 /* menu styles */
 #nav-buttons {
 	float: right;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-right: 5px;
 }
 
@@ -73,7 +73,7 @@ body {
 
 /* sign up page styles */ 
 #container {
-	width: 80%;
+	width: 90%;
 	margin: 20px auto 0 auto;
 }
 
@@ -85,7 +85,11 @@ body {
 }
 
 #submit {
-	padding-top: 200px;
+	padding-top: 135px;
+}
+
+.signup {
+	padding: 10px;
 }
 
 /* mailchimp subscribe */ 
@@ -108,10 +112,12 @@ button, input, select, textarea {
 }
 
 input {
-	width: 40%;
-	height: 30px;
-	font-size: 16px;
-	float: left
+	width: 50%;
+	/*height: 30px;*/
+	font-size: 20px;
+	float: left;
+	margin-right: 15px;
+	padding: 5px
 }
 
 input:focus {
@@ -120,6 +126,7 @@ input:focus {
 
 #intro {
 	font-size: 16px;
+	margin-bottom: 30px;
 }
 
 #signup {
@@ -128,7 +135,8 @@ input:focus {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 40px;
+	margin-bottom: 30px;
 }
 
 /*lesson styles*/
