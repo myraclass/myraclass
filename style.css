@@ -153,7 +153,7 @@ h2 {
 /*audio player styles*/
 
 audio {
-	/*min-width: 600px;*/
+	min-width: 600px;
 	margin: 0 auto;
 }
 
@@ -163,10 +163,14 @@ audio {
 	letter-spacing: 0.3px;
 	box-shadow: none;
 	margin: 0 auto;
+	border-radius: 5px;
+	background: #929292;
+	background-image: none;
 }
 
 .audiojs .play-pause {
 	width: auto;
+	border-right: 1px solid #fff;
 }
 
 .audiojs .scrubber {
@@ -175,4 +179,5 @@ audio {
 
 .audiojs .time {
 	text-shadow: none;
+	border-left: 1px solid #fff;
 }
