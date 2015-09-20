@@ -16,6 +16,7 @@ body {
 	border-radius: 2px;
 	padding: 15px;
 	color: #676767;
+	font-size: 16px;
 	letter-spacing: 0.4px;
 	margin-right: 0;
 }
@@ -91,6 +92,9 @@ body {
 #mc-embedded {
     width: auto;
     display: block;
+    border: none;
+    margin-left: 3px;
+    background-color: #FFE8CF;
     /*margin: 1em 0 1em 5%;*/
 }
 
@@ -100,17 +104,31 @@ body {
 
 button, input, select, textarea {
     color: #676767;
+    font-size: 16px;
 }
 
 input {
 	width: 40%;
 	height: 30px;
-	font-size: 15px;
+	font-size: 16px;
 	float: left
 }
 
 input:focus {
 	outline:none;
+}
+
+#intro {
+	font-size: 16px;
+}
+
+#signup {
+	font-size: 16px;
+	color: #2A8C93;
+}
+
+h2 {
+	font-size: 36px;
 }
 
 /*lesson styles*/
