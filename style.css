@@ -179,3 +179,7 @@ audio {
 	text-shadow: none;
 	border-left: 1px solid #fff;
 }
+
+ul {
+	list-style-type: none;
+}
