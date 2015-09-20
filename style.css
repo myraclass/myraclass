@@ -26,9 +26,15 @@ body {
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
 	background-color: #fff;
-	color: #2A8C93;
+	/*color: #2A8C93;*/
     outline: 0 none;
+    border-bottom: 2px solid #FFE8CF;
+    border-radius: 0px;
 }
+
+/*.btn:focus:hover, .btn:active:focus:hover, .btn.active:focus:hover {
+	border-bottom: 0px;
+}*/
 
 .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
     color: #676767;
