@@ -1,6 +1,7 @@
 body {
 	max-width: 960px;
 	margin: 0 auto;
+	font-family: 'Work Sans', sans-serif;
 }
 
 /* menu styles */
@@ -17,7 +18,6 @@ body {
 	color: #676767;
 	letter-spacing: 0.4px;
 	margin-right: 0;
-	font-family: 'Work Sans', sans-serif;
 }
 
 .btn:hover {
@@ -44,7 +44,6 @@ body {
 }
 
 .dropdown-menu>li>a {
-    font-family: 'Work Sans', sans-serif;
     color: #676767;
 }
 
@@ -72,7 +71,6 @@ body {
 }
 
 #lady {
-	/*height: 400px;*/
 	display: block;
 	width: 250px;
 	margin-right: 35px;
@@ -87,17 +85,26 @@ body {
 #mc-embedded {
     width: auto;
     display: block;
-    margin: 1em 0 1em 5%;
-    font-family: 'Work Sans', sans-serif;
-}
-
-#intro, label, h2 {
-    font-family: 'Work Sans', sans-serif;
+    /*margin: 1em 0 1em 5%;*/
 }
 
 .dropdown-menu>li>a {
-    font-family: 'Work Sans', sans-serif;
     color: #676767;
+}
+
+button, input, select, textarea {
+    color: #676767;
+}
+
+input {
+	width: 40%;
+	height: 30px;
+	font-size: 15px;
+	float: left
+}
+
+input:focus {
+	outline:none;
 }
 
 /*lesson styles*/
@@ -109,13 +116,4 @@ body {
 
 .lesson-copy {
 	font-size: 20px;
-}
-
-p {
-	font-family: 'Work Sans', sans-serif;
-}
-
-button, input, select, textarea {
-	font-family: 'Work Sans', sans-serif;
-    color: #676767;
 }
