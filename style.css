@@ -25,6 +25,8 @@ body {
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
+	background-color: #fff;
+	color: #2A8C93;
     outline: 0 none;
 }
 
@@ -81,7 +83,7 @@ body {
 	padding-top: 200px;
 }
 
-/* mailchimp subscribe button */ 
+/* mailchimp subscribe */ 
 #mc-embedded {
     width: auto;
     display: block;
@@ -113,9 +115,7 @@ p {
 	font-family: 'Work Sans', sans-serif;
 }
 
-
-
-
-
-
-
+button, input, select, textarea {
+	font-family: 'Work Sans', sans-serif;
+    color: #676767;
+}
