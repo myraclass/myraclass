@@ -1,3 +1,5 @@
+<!-- second lesson -->
+<!-- first lesson -->
 <html>
 <head>
   <title>My Radio Class</title>
@@ -11,7 +13,13 @@
   <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Work+Sans:200' rel='stylesheet' type='text/css'>
-
+  <!-- audio.js -->
+  <script src="lib/audiojs/audio.min.js"></script>
+  <script>
+    audiojs.events.ready(function() {
+      var as = audiojs.createAll();
+    });
+  </script>
 </head>
 <body>
 
@@ -26,24 +34,24 @@
       </button>
       <ul class="dropdown-menu">
         <li><a href="1.html">1. Your First Listen</a></li>
-        <li><a href="#">2. One Topic, Three Ways</a></li>
-        <li><a href="#">3. Surprise!</a></li>
+        <li><a href="2.html">2. One Topic, Three Ways</a></li>
+<!--         <li><a href="#">3. Surprise!</a></li>
         <li><a href="#">4. For That Extra 15 Minutes</a></li>
         <li><a href="#">5. Water Cooler Talk</a></li>
         <li><a href="#">6. Pick Your Flavor</a></li>
-        <li><a href="#">7. Now what?</a></li>
+        <li><a href="#">7. Now what?</a></li> -->
       </ul>
     </div>
 
     <!-- find your own (downloading podcast apps, and discover the most popular ones) -->
     <div class="btn-group">
-      <button type="button" class="btn btn-default" aria-haspopup="true" aria-expanded="false">
+      <a href="find.html"><button type="button" class="btn btn-default" aria-haspopup="true" aria-expanded="false">
         Find Your Own
-      </button>
+      </button></a>
     </div>
 
     <div class="btn-group">
-      <button type="button" class="btn btn-default" aria-haspopup="true" aria-expanded="false">
+      <a href="about.html"><button type="button" class="btn btn-default" aria-haspopup="true" aria-expanded="false"></a>
         About
       </button>
     </div>
@@ -51,16 +59,13 @@
 </div>
 
 <div class="lesson">
-<h2>About<h2>
-  <p id="intro">My Radio Class was created as part of the This American Life audio hackathon on September 19-20, 2015. While 46 million Americans listen to at least one podcast a month, there are still many people who do not. My Radio Class is an attempt to bridge this divide and encourage people new to podcasts to begin their listening journey.</p>
-    <h2>Contributors</h2>
-      <ul>
-        <li><a href="https://twitter.com/ashhwu">Ashley Wu</a></li>
-        <li><a href="https://twitter.com/whoacassidy">Cassidy CLawson</a></li>
-        <li><a href="https://twitter.com/eleanorkagan">Eleanor Kagan</a></li>
-        <li><a href="https://twitter.com/jihiitea">Jihii Jolly</a></li>
-        <li><a href="https://twitter.com/analogmichelle">Michelle Chandra</a></li>
-      </ul>
+  <h1>Hello Dear!</h1>
+  <p class="lesson-copy">My friend Betty told me such a racy story the other day. Would you like to hear it?</p>
+  <!-- <iframe style="border:none" src="http://files.podsnack.com/iframe/embed.html?hash=av7kld7d&t=1442760628" width="460" height="60" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+  <audio src="audio/1_1_jenkins.mp3" preload="auto" autoplay="autoplay"/>
+
+  <p class="lesson-copy">Isn't that marvelous? Back in my day, she never would be put on the radio talking like that!</p>
 </div>
+
 </body>
 </html>

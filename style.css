@@ -7,7 +7,7 @@ body {
 /* menu styles */
 #nav-buttons {
 	float: right;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-right: 5px;
 }
 
@@ -16,6 +16,7 @@ body {
 	border-radius: 2px;
 	padding: 15px;
 	color: #676767;
+	font-size: 16px;
 	letter-spacing: 0.4px;
 	margin-right: 0;
 }
@@ -72,7 +73,7 @@ body {
 
 /* sign up page styles */ 
 #container {
-	width: 80%;
+	width: 90%;
 	margin: 20px auto 0 auto;
 }
 
@@ -84,13 +85,20 @@ body {
 }
 
 #submit {
-	padding-top: 200px;
+	padding-top: 135px;
+}
+
+.signup {
+	padding: 10px;
 }
 
 /* mailchimp subscribe */ 
 #mc-embedded {
     width: auto;
     display: block;
+    border: none;
+    margin-left: 3px;
+    background-color: #FFE8CF;
     /*margin: 1em 0 1em 5%;*/
 }
 
@@ -100,26 +108,78 @@ body {
 
 button, input, select, textarea {
     color: #676767;
+    font-size: 16px;
 }
 
 input {
-	width: 40%;
-	height: 30px;
-	font-size: 15px;
-	float: left
+	width: 50%;
+	/*height: 30px;*/
+	font-size: 20px;
+	float: left;
+	margin-right: 15px;
+	padding: 5px
 }
 
 input:focus {
 	outline:none;
 }
 
+#intro {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+#signup {
+	font-size: 16px;
+	color: #2A8C93;
+}
+
+h2 {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
 /*lesson styles*/
 .lesson {
-	width: 60%;
+	width: 600px;
 	margin: 40px auto 0 auto;
 	/*text-align: center;*/
 }
 
 .lesson-copy {
 	font-size: 20px;
+}
+
+/*audio player styles*/
+
+audio {
+	/*min-width: 600px;*/
+	margin: 0 auto;
+}
+
+.audiojs {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.3px;
+	box-shadow: none;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.audiojs .play-pause {
+	width: auto;
+	border-right: 1px solid #fff;
+}
+
+.audiojs .scrubber {
+	border-top: 0px;
+}
+
+.audiojs .time {
+	text-shadow: none;
+	border-left: 1px solid #fff;
+}
+
+ul {
+	list-style-type: none;
 }
