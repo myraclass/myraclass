@@ -1,3 +1,9 @@
+body {
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: 'Work Sans', sans-serif;
+}
+
 /* menu styles */
 #nav-buttons {
 	float: right;
@@ -12,16 +18,47 @@
 	color: #676767;
 	letter-spacing: 0.4px;
 	margin-right: 0;
-	font-family: 'Work Sans', sans-serif;
 }
 
 .btn:hover {
 	background-color: #FFE8CF;
-	color: #676767;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	background-color: #fff;
+	/*color: #2A8C93;*/
+    outline: 0 none;
+    border-bottom: 2px solid #FFE8CF;
+    border-radius: 0px;
+}
+
+/*.btn:focus:hover, .btn:active:focus:hover, .btn.active:focus:hover {
+	border-bottom: 0px;
+}*/
+
+.open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #676767;
+    background-color: #FFE8CF;
+    border-color: #8c8c8c;
 }
 
 /* removing box shadows from menu */
 .btn-group.open .dropdown-toggle {
+	background-color: #FFE8CF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dropdown-menu>li>a {
+    color: #676767;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 3px;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -40,7 +77,6 @@
 }
 
 #lady {
-	/*height: 400px;*/
 	display: block;
 	width: 250px;
 	margin-right: 35px;
@@ -51,23 +87,39 @@
 	padding-top: 200px;
 }
 
-/* mailchimp subscribe button */ 
+/* mailchimp subscribe */ 
 #mc-embedded {
     width: auto;
     display: block;
-    margin: 1em 0 1em 5%;
-    font-family: 'Work Sans', sans-serif;
-}
-
-h2 {
-    font-family: 'Work Sans', sans-serif;
-}
-
-label {
-   font-family: 'Work Sans', sans-serif;
+    /*margin: 1em 0 1em 5%;*/
 }
 
 .dropdown-menu>li>a {
-    font-family: 'Work Sans', sans-serif;
     color: #676767;
+}
+
+button, input, select, textarea {
+    color: #676767;
+}
+
+input {
+	width: 40%;
+	height: 30px;
+	font-size: 15px;
+	float: left
+}
+
+input:focus {
+	outline:none;
+}
+
+/*lesson styles*/
+.lesson {
+	width: 60%;
+	margin: 40px auto 0 auto;
+	/*text-align: center;*/
+}
+
+.lesson-copy {
+	font-size: 20px;
 }
