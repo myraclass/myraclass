@@ -141,11 +141,38 @@ h2 {
 
 /*lesson styles*/
 .lesson {
-	width: 60%;
+	width: 600px;
 	margin: 40px auto 0 auto;
 	/*text-align: center;*/
 }
 
 .lesson-copy {
 	font-size: 20px;
+}
+
+/*audio player styles*/
+
+audio {
+	/*min-width: 600px;*/
+	margin: 0 auto;
+}
+
+.audiojs {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.3px;
+	box-shadow: none;
+	margin: 0 auto;
+}
+
+.audiojs .play-pause {
+	width: auto;
+}
+
+.audiojs .scrubber {
+	border-top: 0px;
+}
+
+.audiojs .time {
+	text-shadow: none;
 }
