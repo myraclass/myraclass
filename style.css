@@ -1,3 +1,4 @@
+/* menu styles */
 #nav-buttons {
 	float: right;
 	margin-top: 5px;
@@ -11,11 +12,18 @@
 	color: #676767;
 	letter-spacing: 0.4px;
 	margin-right: 0;
+	font-family: 'Work Sans', sans-serif;
 }
 
 .btn:hover {
 	background-color: #FFE8CF;
 	color: #676767;
+}
+
+/* removing box shadows from menu */
+.btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 #logo {
@@ -25,6 +33,7 @@
 	margin-right: 10px;
 }
 
+/* sign up page styles */ 
 #container {
 	width: 80%;
 	margin: 20px auto 0 auto;
@@ -47,4 +56,18 @@
     width: auto;
     display: block;
     margin: 1em 0 1em 5%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+label {
+   font-family: 'Work Sans', sans-serif;
+}
+
+.dropdown-menu>li>a {
+    font-family: 'Work Sans', sans-serif;
+    color: #676767;
 }
