@@ -17,11 +17,36 @@
 
 .btn:hover {
 	background-color: #FFE8CF;
-	color: #676767;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #676767;
+    background-color: #FFE8CF;
+    border-color: #8c8c8c;
 }
 
 /* removing box shadows from menu */
 .btn-group.open .dropdown-toggle {
+	background-color: #FFE8CF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dropdown-menu>li>a {
+    font-family: 'Work Sans', sans-serif;
+    color: #676767;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 3px;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -62,7 +87,6 @@
 #intro, label, h2 {
     font-family: 'Work Sans', sans-serif;
 }
-
 
 .dropdown-menu>li>a {
     font-family: 'Work Sans', sans-serif;
