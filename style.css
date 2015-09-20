@@ -59,13 +59,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-h2 {
+#intro, label, h2 {
     font-family: 'Work Sans', sans-serif;
 }
 
-label {
-   font-family: 'Work Sans', sans-serif;
-}
 
 .dropdown-menu>li>a {
     font-family: 'Work Sans', sans-serif;
