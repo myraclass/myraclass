@@ -290,3 +290,33 @@ ul {
     padding-bottom: 50px;
 }
 
+/* find your own styles */
+#find {
+	width: 960px;
+	height: 640px;
+	background: url(img/findyourownbanner.jpg);
+}
+
+#findtitle {
+	font-size: 60px;
+	color: black;
+	margin-bottom: 20px;
+	padding-top: 4f0px;
+	opacity: 1;
+}
+
+#findintro {
+	font-size: 16px;
+	color: black;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+
+#find .col-md-4 {
+	margin-top: 100px;
+	background-color: #FFF;
+	opacity: .7;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
