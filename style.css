@@ -201,3 +201,20 @@ ul {
 	text-decoration: none;
 	color: #f16364;
 }
+
+/* footer styles */
+#footer {
+	width: 960px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	border-top: solid #C9D5D9;
+	border-width: 1px;
+	clear: both;
+	margin-top: 200px;
+}
+
+#socialbuttons {
+    float: right;
+    margin-top: -25px;
+}
+
