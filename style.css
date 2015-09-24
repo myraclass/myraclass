@@ -70,7 +70,7 @@ body {
 
 /* sign up page styles */ 
 #container {
-	width: 90%;
+	width: 100%;
 	margin: 20px auto 0 auto;
 }
 
@@ -133,7 +133,6 @@ input:focus {
 	font-size: 16px;
 	margin-bottom: 30px;
 	line-height: 1.5;
-
 }
 
 #signup {
@@ -221,10 +220,33 @@ ul {
 }
 
 /* about page styles */
+#about {
+	width: 960px;
+	height: 640px;
+	background: url(img/aboutlargelight.jpg);
+}
+
 #abouttitle {
-	font-size: 40px;
+	font-size: 60px;
+	color: black;
 	margin-bottom: 20px;
-	padding-top: 20px;
+	padding-top: 4f0px;
+	opacity: 1;
+}
+
+#aboutintro {
+	font-size: 16px;
+	color: black;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+
+#about .col-md-4 {
+	margin-top: 100px;
+	background-color: #FFF;
+	opacity: .7;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 #aboutsubtitle {
@@ -233,12 +255,15 @@ ul {
 	padding-top: 20px;
 }
 
-.col-md-4 {
-	margin-bottom: 30px;
-}
-
 .contributorimg {
+    border-radius: 50%;
+    overflow: hidden;
 	padding-right: 15px;
+    margin-top: 10px;
+    margin-left: -10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #contributors {
@@ -246,7 +271,22 @@ ul {
 }
 
 .contributorlink {
+ 	display:block;
+ 	text-align:center;
+ 	width:100%;
+ 	margin-top: 10px;
 	font-family: 'Work Sans', sans-serif;
 	color: black;
+	font-size: 16px;
+}
+
+#contributors .col-md-4 {
+    border: none;
+	margin-top: 10px;
+	background-color: #FFF;
+	opacity: .9;
+	padding-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
 }
 
